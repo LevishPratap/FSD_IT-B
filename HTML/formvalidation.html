@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+
+    <style>
+        .table{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="Validate">
+        <caption>Student Registration Form</caption>
+        
+        <table  border="1px solid black" class="table" cellspacing="8px">
+          
+            <tr>
+              <td>
+                <label for="">Student Name</label>
+                <input type="text" placeholder="Enter your name">
+               </td>
+            </tr>
+
+            <tr>
+                <td>
+                  
+                  <label for="gender">Gender:</label><br>
+                  <input type="radio" id="male" name="gender" value="Male">
+                  <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="Female">
+                  <label for="female">Female</label><br>
+                  <input type="radio" id="other" name="gender" value="Other">
+                  <label for="other">Other</label><br>
+                 </td>
+              </tr>
+
+            <tr>
+                <td>
+                  <label for=""> Father Name </label>
+                  <input type="text" placeholder="Enter your father name">
+                </td>
+              </tr>
+
+
+              <tr>
+                <td>
+                  <label for="">Mother Name</label>
+                  <input type="text" placeholder="Enter your mother name">
+                </td>
+              </tr>
+
+            <tr>
+                <td>
+                    <label for="">Student mobilenumber</label>
+                    <input type="number" placeholder="Enter your mobile number" maxlength="10" minlength="10">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                  <label for="">Student Date of Birth</label>
+                  <input type="date" placeholder="Enter your DOB">
+                </td>
+              </tr>
+
+            <tr>
+               <td>
+                <label for="">Student Email</label>
+                <input type="email" placeholder="Enter your email">
+               </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                 <label for="">Branch</label>
+                 <select name="branch" id="" for="branch">
+                    <option value="IT">IT</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ME">ME</option>
+                    <option value="AIML">AIML</option>
+                    <option value="DS">DS</option>
+
+                 </select>
+                </td>
+             </tr>
+
+             <tr>
+                <td>
+                 <label for="">Branch</label>
+                 <select name="branch" id="" for="branch">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                   
+
+                 </select>
+                </td>
+             </tr>
+            <tr>
+              <td>
+                <span >Students Address</span>
+                <textarea name="" rows="4" id=""></textarea>
+              </td>
+            </tr>
+            <tr>
+                <td><button onclick="Validate()">Register</button>
+                <button>Reset</button></td>
+            </tr>
+        </table>
+    </form>
+    <script src="/JS/formvalidate.js"></script>
+    
+</body>
+</html>
