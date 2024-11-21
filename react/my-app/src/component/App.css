@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+#name{
+    font-size: 40px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+#header{
+    color:white;
+    text-align: center;
+    padding-top:25px ;
+    font-size: 35px;
+}
+#question{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    width: 60%;
+    margin: 0px auto;
+}
+#prev{
+    padding:15px 35px;
+    font-size: 25px;
+    background-color: brown ;
+    margin-top: 20px;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+#next{
+    padding:15px 35px;
+    font-size: 25px;
+    background-color: brown ;
+    margin-top: 20px;
+    /* margin-right: 100px; */
+    border-radius: 5px;
+}
