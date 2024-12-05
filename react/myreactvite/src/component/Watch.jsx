@@ -20,6 +20,7 @@ const Watch=()=>{
             <h1>{min}:{sec}</h1>
             {/* <button onClick={start}>START</button> */}
             <button>RESET</button>
+            
           </div>
         </>
     )
