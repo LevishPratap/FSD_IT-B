@@ -8,7 +8,18 @@ const Home = () => {
     <div>
       <Header/>
       <nav>
-        <ul>
+        <ul  
+             style={{
+              height:'60px',
+              color:'black',
+              display:'flex',
+              justifyContent:'space-around',
+              alignItems:'center',
+              fontSize:'30px',
+              color:'black',
+              fontWeight:'bold'
+            }}
+          >
             <li>
                 <Link to="/login">Login</Link>
             </li>
